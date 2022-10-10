@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+:root {
+    --background-color: #36393F;
+    --discord-color: #8C9EFF;
+    --lotus-color: #8a3eb6;
+}
+
+body {
+    background-color: var(--background-color) ;
+    font-size: 100%;
+    font-family: 'Righteous', cursive;
+    height: 100%;
+    width: 100%;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    
+}
+
+header nav ul a {
+    color: white;
+}
+
+
+header .dropdown {
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: #32363d;
+    padding: 10px;
+    color: white;
+}
+
+header .members:hover > .dropdown{
+    display: block;
+
+}
+
+header .dropdown li:hover {
+    cursor: pointer;
+    color: var(--discord-color);
+    transition: 1s color;
+}
+
+
+
+.section-primary {
+    margin-top: 5%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.formulario {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.formulario h1{
+    color: #8C9EFF;
+    font-size: 40px;
+}
+
+.formulario h1 span:hover{
+    color: #8a3eb6;
+    transition: 1s color;
+}
+
+form button{
+    align-self: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #8C9EFF;
+    color: white;
+    
+}
+
+form button:hover {
+    cursor: pointer;
+
+}
+
+.section-secundaria {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    color: white;
+
+}
+
+.section-secundaria-content {
+    border-top: 2px solid rgb(97, 97, 97);
+    width: 30%;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+  /*   padding: 20px; */
+   /*  border-top: 1px solid rgb(97, 97, 97); */
+    color: white;
+
+}
+
+
+
+
