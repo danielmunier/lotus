@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    color: white;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(97, 97, 97);
+
+}
+
+header img {
+    width: 50px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+
+
+header ul a{
+    color: white;
+}
+
+
