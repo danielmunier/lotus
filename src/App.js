@@ -1,18 +1,10 @@
-import Header from "./components/Header";
-import React from 'react';
-import Footer from "./components/Footer";
+import Navbar from './components/Navbar';
+import './App.css';
 
-
-
-function App({}) {
+function App() {
   return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
-    
+      <Navbar/>
   );
 }
-
 
 export default App;
