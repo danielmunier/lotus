@@ -1,5 +1,5 @@
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
-import style from "./Navbar.css"
+import style from "./css/Navbar.css"
 import DiscordLogo from "./discord.svg"
 
 

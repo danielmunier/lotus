@@ -1,0 +1,25 @@
+.rules {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+
+}
+
+.rules ol {
+    width: 40%;
+    padding: 5vh;
+}
+
+.rules ul {
+    padding-top: 1vh;
+
+}
+
+.rules h2 {
+    padding-bottom: 1vh;
+    font-size: 24px;
+    font-weight: 600;
+}
+
