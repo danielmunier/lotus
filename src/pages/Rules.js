@@ -1,4 +1,4 @@
-import sytle from './rules.css'
+import style from './rules.css'
 
 
 function Rules() {
